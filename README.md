@@ -49,3 +49,5 @@ echo ""
 done
 ```
 For good measures, we added the MD5 and SHA256 hashes to the list of properties to echo. At the end of this script block, we also closed our for loop.
+
+In summary, we were able to use linux tools like grep, cut, openssl, and more to obtain a list of all image files in a given directory, no matter the file extension that has been set.
